@@ -53,68 +53,87 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+header {
+	position: absolute;
+	z-index: 1;
+}
+
 .intro {
 	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
 	background-size: cover;
 	text-align: center;
 	color: white;
-	position: relative;
-	top: 40%;
+	padding: 200px 0;
 }
+
+button {
+	background-color: #f9e42e;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	}
 
 .benefits {
 	text-align: 0 auto;
 	background-color: #f0efef;
-	font-weight: semibold;
+	font-weight: 300;
 	color: #121212;
+	padding: 125px;
+	border: 0px;
+	margin: 0px;
 }
 
 .testimonial {
 	background: url("../images/testimonial_bg.jpg");
-	font-weight: light italic;
-	color: white;
 	text-align: center;
+	padding: 100px 0;
+	font-weight: 300 italic;
 	
 }
 
 .social_media {
 	letter-spacing: 15px;	
 	margin-top: 30px;
+	padding-bottom: 20px;
 }
 
 .sign-up {
 	background-color: #f9e42e;
+	padding: 25px 0;
+	border-radius: 5px;
+	font-weight: 800;
+	text-align: center;
 }
+
+a {
+      color: white;
+      background-color: #033048;
+      padding-top: 10px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      border-radius: 3px;
+  }
 
 footer {
 	text-align: center;
 	text-decoration-color: #f9e42e;
 	background-color: #121212;
+	padding: 50px 0;
+	font-weight: 600;
 }
 
 h1 {
-	position: absolute;
-	color: black;
+		color: black;
+		font-weight: 800;
 }
 
 h2 {
-	color: #f9e42e;
-
+	color:  #f9e42e;
+	font-weight: 800;
 }
 
 h3 {
-	font-weight: semi bold;
-	position: relative;
+	font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
