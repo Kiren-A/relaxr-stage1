@@ -35,6 +35,7 @@ body {
 	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
+
 }
 
 
@@ -72,7 +73,7 @@ button {
 	padding-right: 15px;
 	padding-bottom: 5px;
 	padding-left: 15px;
-	}
+}
 
 .benefits {
 	text-align: 0 auto;
@@ -104,7 +105,9 @@ button {
 	border-radius: 5px;
 	font-weight: 800;
 	text-align: center;
+	clear: both;
 }
+
 
 a {
       color: white;
@@ -137,3 +140,58 @@ h2 {
 h3 {
 	font-weight: 600;
 }
+
+header .blog {
+	background-color: #033048;
+}
+nav {
+	float: right;
+	font-weight: 600;
+	}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+}
+
+main {
+  background-color: #f0efef;
+  float: left;
+  height: 600px;
+  padding-top: 2rem;
+  width: 70%;
+  margin-top: 150px;
+  clear: both;
+  
+}
+
+aside {
+  background-color: purple;
+  float: right;
+  height: 600px;
+  padding-top: 2rem;
+  width: 30%;
+  margin-top: 150px;
+  
+}
+
+first-letter {
+	font-size: 70px;
+	font-weight: 800;
+}
+
+p {
+	padding: 0px;
+	margin-top: auto 0;
+	border: auto 0;
+	margin: auto 0;
+	font-weight: 300;
+	color: #121212;
+}
+
+
+
