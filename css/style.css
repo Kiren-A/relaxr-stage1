@@ -67,14 +67,6 @@ header {
 	padding: 200px 0;
 }
 
-button {
-	background-color: #f9e42e;
-	padding-top: 5px;
-	padding-right: 15px;
-	padding-bottom: 5px;
-	padding-left: 15px;
-}
-
 .benefits {
 	text-align: 0 auto;
 	background-color: #f0efef;
@@ -89,7 +81,10 @@ button {
 	background: url("../images/testimonial_bg.jpg");
 	text-align: center;
 	padding: 100px 0;
-	font-weight: 300 italic;
+	font-weight: 300;
+	font-style: italic;
+	background-repeat: no-repeat;
+	background-size: cover;
 	
 }
 
@@ -108,16 +103,24 @@ button {
 	clear: both;
 }
 
+.button1 {
+	background-color: #f9e42e;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
 
-a {
-      color: white;
-      background-color: #033048;
-      padding-top: 10px;
-      padding-right: 30px;
-      padding-bottom: 10px;
-      padding-left: 30px;
-      border-radius: 3px;
+.button2 {
+	color: white;
+    background-color: #033048;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 3px;
   }
+
 
 footer {
 	text-align: center;
@@ -126,6 +129,8 @@ footer {
 	padding: 50px 0;
 	font-weight: 600;
 }
+
+
 
 h1 {
 		color: black;
@@ -141,13 +146,19 @@ h3 {
 	font-weight: 600;
 }
 
-header .blog {
+.blog-header {
 	background-color: #033048;
+	padding: 10px;
+}
+
+.blog-header h1 {
+	color: white;
+	padding-left: 30px;
 }
 nav {
 	float: right;
 	font-weight: 600;
-	}
+}
 
 nav ul {
 	text-align: center;
@@ -156,32 +167,38 @@ nav ul {
 nav li {
 	display: inline-block;
 	list-style: none;
+	padding-right: 20px;
+}
+
+.button3 {
+	color: #f9e42e;
+	padding-top: 10px;
+	}
+
+.blog-posts {
+	background-color: #f0efef;
 }
 
 main {
-  background-color: #f0efef;
   float: left;
-  height: 600px;
-  padding-top: 2rem;
-  width: 70%;
+  max-width: 70%;
   margin-top: 150px;
-  clear: both;
-  
 }
 
 aside {
-  background-color: purple;
   float: right;
-  height: 600px;
-  padding-top: 2rem;
   width: 30%;
   margin-top: 150px;
-  
+  background-color: #f0efef;
 }
 
-first-letter {
-	font-size: 70px;
-	font-weight: 800;
+.blog-posts img {
+	max-width: 100%;
+}
+
+.blog-posts li {
+	border-bottom-color: black;
+	border-bottom-style: solid;
 }
 
 p {
@@ -193,5 +210,52 @@ p {
 	color: #121212;
 }
 
+.blog-posts p::first-letter {
+	font-weight: bold;
+	font-size: 40px;
+}
 
+a {
+	text-decoration: none;
+}
 
+.categories-options {
+	font-family: sans-serif;
+	font-family: 300;
+	color: black;
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+
+}
+
+.blog-h2 {
+	font-family: 300;
+	color: #121212;
+}
+
+.blog-h3 {
+	font-family: 600;
+	color: #121212;
+	font-weight: bold;
+}
+
+.bold-link1 {
+	font-family: 600;
+	font-weight: bold;
+	color: #121212;
+	font-size: 15px;
+	float: right;
+}
+
+.bold-link2 {
+	font-family: 600;
+	font-weight: bold;
+	color: #121212;
+	font-size: 15px;
+}
