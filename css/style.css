@@ -121,7 +121,6 @@ header {
     border-radius: 3px;
   }
 
-
 footer {
 	text-align: center;
 	text-decoration-color: #f9e42e;
@@ -129,8 +128,6 @@ footer {
 	padding: 50px 0;
 	font-weight: 600;
 }
-
-
 
 h1 {
 		color: black;
@@ -148,7 +145,8 @@ h3 {
 
 .blog-header {
 	background-color: #033048;
-	padding: 10px;
+	height: 120px;
+	padding-top: 25px;
 }
 
 .blog-header h1 {
@@ -157,15 +155,20 @@ h3 {
 }
 nav {
 	float: right;
+	font-size: 20px;
 	font-weight: 600;
 }
 
 nav ul {
 	text-align: center;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
 }
 
 nav li {
-	display: inline-block;
+	display: inline;
 	list-style: none;
 	padding-right: 20px;
 }
@@ -197,8 +200,7 @@ aside {
 }
 
 .blog-posts li {
-	border-bottom-color: black;
-	border-bottom-style: solid;
+		border-bottom: 1px solid black;
 }
 
 p {
@@ -208,6 +210,7 @@ p {
 	margin: auto 0;
 	font-weight: 300;
 	color: #121212;
+	font-size: 15px;
 }
 
 .blog-posts p::first-letter {
@@ -220,10 +223,12 @@ a {
 }
 
 .categories-options {
-	font-family: sans-serif;
-	font-family: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	color: black;
-	text-align: left;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
 ul {
@@ -231,31 +236,34 @@ ul {
 }
 
 li {
-
+	margin-left: 0;
 }
 
 .blog-h2 {
-	font-family: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	color: #121212;
+	font-size: 20px;
 }
 
 .blog-h3 {
-	font-family: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
 	color: #121212;
-	font-weight: bold;
+	font-size: 15px;
 }
 
 .bold-link1 {
-	font-family: 600;
-	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
 	color: #121212;
 	font-size: 15px;
 	float: right;
 }
 
 .bold-link2 {
-	font-family: 600;
-	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
 	color: #121212;
 	font-size: 15px;
 }
