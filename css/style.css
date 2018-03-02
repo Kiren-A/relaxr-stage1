@@ -81,7 +81,8 @@ header {
 	background: url("../images/testimonial_bg.jpg");
 	text-align: center;
 	padding: 100px 0;
-	font-weight: 300;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -136,6 +137,7 @@ h1 {
 
 h2 {
 	color:  #f9e42e;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 }
 
@@ -145,14 +147,14 @@ h3 {
 
 .blog-header {
 	background-color: #033048;
-	height: 120px;
-	padding-top: 25px;
+	padding: 35px;
 }
 
 .blog-header h1 {
 	color: white;
 	padding-left: 30px;
 }
+
 nav {
 	float: right;
 	font-size: 20px;
@@ -175,8 +177,7 @@ nav li {
 
 .button3 {
 	color: #f9e42e;
-	padding-top: 10px;
-	}
+}
 
 .blog-posts {
 	background-color: #f0efef;
@@ -189,7 +190,7 @@ main {
 }
 
 aside {
-  float: right;
+  float: left;
   width: 30%;
   margin-top: 150px;
   background-color: #f0efef;
@@ -204,6 +205,7 @@ aside {
 }
 
 p {
+	font-family: 'Open Sans', sans-serif;
 	padding: 0px;
 	margin-top: auto 0;
 	border: auto 0;
@@ -214,8 +216,11 @@ p {
 }
 
 .blog-posts p::first-letter {
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 45px;
+	padding-right: 2px;
+	float: left;
 }
 
 a {
