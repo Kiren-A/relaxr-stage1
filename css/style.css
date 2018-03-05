@@ -54,9 +54,13 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-header {
+.home-header {
 	position: absolute;
 	z-index: 1;
+}
+
+.home-header nav {
+	margin-left: 60px;
 }
 
 .intro {
@@ -80,13 +84,18 @@ header {
 .testimonial {
 	background: url("../images/testimonial_bg.jpg");
 	text-align: center;
-	padding: 100px 0;
-	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
+	padding: 70px 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: #fff;
 	
+}
+
+.testimonial p {
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 36px;
 }
 
 .social_media {
@@ -142,9 +151,12 @@ h2 {
 }
 
 h3 {
-	font-weight: 600;
+	font-weight: 800;
 }
 
+.main-blog {
+	background-color: #f0efef;
+}
 .blog-header {
 	background-color: #033048;
 	padding: 35px;
@@ -186,14 +198,13 @@ nav li {
 main {
   float: left;
   max-width: 70%;
-  margin-top: 150px;
-}
+  }
 
 aside {
   float: left;
-  width: 30%;
-  margin-top: 150px;
-  background-color: #f0efef;
+  max-width: 30%;
+  padding-left: 10px;
+
 }
 
 .blog-posts img {
@@ -231,17 +242,10 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: black;
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
+}	
 
-ul {
-	list-style-type: none;
-}
-
-li {
-	margin-left: 0;
+aside li {
+	list-style: none;
 }
 
 .blog-h2 {
@@ -256,11 +260,12 @@ li {
 	font-weight: 800;
 	color: #121212;
 	font-size: 15px;
+	padding-bottom: 0;
 }
 
 .bold-link1 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
+	font-weight: 600;
 	color: #121212;
 	font-size: 15px;
 	float: right;
@@ -268,7 +273,7 @@ li {
 
 .bold-link2 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
+	font-weight: 600;
 	color: #121212;
 	font-size: 15px;
 }
